@@ -55,112 +55,471 @@
             </div>
 
             <!-- Responsive Grid for Reviews -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="reviewsGrid">
 
-                <!-- Review Card Template (Repeated for all provided reviews) -->
+                <!-- FIRST 18 REVIEWS (VISIBLE BY DEFAULT) -->
                 <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"Xuan is a very good teacher"</p>
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Xuan is a very good teacher</p>
                     <p class="text-sm font-bold text-[#279b77]">- A Chen</p>
                 </div>
-
                 <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"乔老师教材经验非常丰富，我儿子有好的成绩是你的功劳，好老师要推荐给朋友，很高兴认识你。"</p>
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">乔老师教材经验非常丰富，我儿子有好的成绩是你的功劳，好老师要推荐给朋友，很高兴认识你。</p>
                     <p class="text-sm font-bold text-[#279b77]">- C Wang</p>
                 </div>
-
                 <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"you are a really good teacher, youre patient with explaining things and teaches well :)"</p>
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">you are a really good teacher, youre patient with explaining things and teaches well :)</p>
                     <p class="text-sm font-bold text-[#279b77]">- M Yu</p>
                 </div>
-
                 <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"Good"</p>
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Good</p>
                     <p class="text-sm font-bold text-[#279b77]">- H Hou</p>
                 </div>
-
                 <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"The teacher is friendly and patient teach with children."</p>
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">The teacher is friendly and patient teach with children.</p>
                     <p class="text-sm font-bold text-[#279b77]">- Student/Parent</p>
                 </div>
-
                 <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"Teachers are responsible. Group lesson of Math and VR are greatly prepared by the teachers."</p>
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Excellent</p>
+                    <p class="text-sm font-bold text-[#279b77]">- J Yu</p>
+                </div>
+                <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Teachers are responsible. Group lesson of Math and VR are greatly prepared by the teachers.</p>
                     <p class="text-sm font-bold text-[#279b77]">- R Wright</p>
                 </div>
-
                 <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"My daughter has been with Oli and Mrs Qiao a few terms. She really enjoyed every lesson and improved."</p>
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">My daughter has been with Oli and Mrs Qiao a few terms. She really enjoyed every lesson and improved.</p>
                     <p class="text-sm font-bold text-[#279b77]">- D Wang</p>
                 </div>
-
                 <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"我儿子是一个内向的孩子。然后碰到乔老师教我儿子，他就是喜欢听乔老师的话。然后学习也非常大大的有进步。乔老师都是为每一位学生付出辛苦和努力。我们碰到这样的老师也是我们的福气。我们作为父母在心里感谢乔老师。💕"</p>
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Nice and excellent tuition</p>
+                    <p class="text-sm font-bold text-[#279b77]">- W Wang</p>
+                </div>
+                <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">我儿子是一个内向的孩子。然后碰到乔老师教我儿子，他就是喜欢听乔老师的话。然后学习也非常大大的有进步。乔老师都是为每一位学生付出辛苦和努力。我们碰到这样的老师也是我们的福气。我们作为父母在心里感谢乔老师。💕</p>
                     <p class="text-sm font-bold text-[#279b77]">- K Wang</p>
                 </div>
-
                 <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"I benefited a lot from the lessons. They were fun and very organized. I enjoyed VR lessons the most and homework is bit challenging for me but I love it!"</p>
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">I think that it was very nice of you to teach me. I enjoyed lessons.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- R Li</p>
+                </div>
+                <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">I benefited a lot from the lessons. They were fun and very organized. I enjoyed VR lessons the most and homework is bit challenging for me but I love it!</p>
                     <p class="text-sm font-bold text-[#279b77]">- I Chen</p>
                 </div>
-
                 <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"My son had 1v1 writing lessons with Oli over the summer, and he made pleasant progress. Oil was extremely patient and good at keeping young kids to concentrate on their work through the one hour lesson each time. Will recommend to other parents!"</p>
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">All of the tutors has nice attitudes and highly skilled. We have got lots of help from them. Thanks!</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Y Li</p>
+                </div>
+                <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">My son had 1v1 writing lessons with Oli over the summer, and he made pleasant progress. Oil was extremely patient and good at keeping young kids to concentrate on their work through the one hour lesson each time. Will recommend to other parents!</p>
                     <p class="text-sm font-bold text-[#279b77]">- B Yang</p>
                 </div>
-
                 <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"My daughter has fairly good experience in Target Tuition, she improved her English Comprehension & writing skills from the course which is useful for 11+ exam. She loves the course from Mr.Oli whose course is quite interative and interesting for her."</p>
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">My daughter has fairly good experience in Target Tuition, she improved her English Comprehension & writing skills from the course which is useful for 11+ exam. She loves the course from Mr.Oli whose course is quite interative and interesting for her. We are grateful for the help from Target Tuition</p>
                     <p class="text-sm font-bold text-[#279b77]">- V Kong</p>
                 </div>
-
                 <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"Very detailed explanations which are easy to understand. Questions and papers are directed to what I need help on and what I need more practice on which help me to understand and work on those topics more."</p>
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Very detailed explanations which are easy to understand. Questions and papers are directed to what I need help on and what I need more practice on which help me to understand and work on those topics more.</p>
                     <p class="text-sm font-bold text-[#279b77]">- S Huang</p>
                 </div>
-
                 <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"Jessica is very patient and knowledgeable. She can adapt to any style of teaching the student wants; she gives important exam tips alongside her teaching."</p>
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">She is very helpful in many different ways and has lead time to many success in life as to have been my tutor for around 4 years. All thanks to her, I am now a student at Dartford Grammar Girls School, a school I always strived to get into as a child. Not only has she taught me maths, she has also taught me Music Theory. In my lessons, she thoroughly explains every point very clearly, making sure that I do not leave my classes unsure of anything. She will use her time to find exactly the right technique for us to use, one that suits as which I find to be very effective in my learning. I really recommend her as a tutor, even up to today, she is my math tutor and is really helping me for my upcoming GCSEs.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- S Chen</p>
+                </div>
+                <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Jessica is very patient and knowledgeable. She can adapt to any style of teaching the student wants; she gives important exam tips alongside her teaching.</p>
                     <p class="text-sm font-bold text-[#279b77]">- K Wang</p>
                 </div>
 
-                <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"Xuan is friendly and has an efficient way of teaching. She has helped me get 9s in all the sciences for GCSE!"</p>
+                <!-- REMAINING REVIEWS (HIDDEN BY DEFAULT) -->
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Oli是非常棒的老师，强力推荐。我女儿一直跟着她补习英语，排名前十的私校拿了三个offer，所有的grammar也都给offer了。再次特别感谢他。Oli老师能激发孩子的学习兴趣，英语是一个需要长期积累的学科，需要兴趣支撑来扩宽知识点。特别私校在面试孩子的时候，表达能力和自信心都建立在词汇量和平时写作的基础上。Newstead Wood的verbal考试，我们家妞差1分满分，在跟oli之前我们跟另外一个老师考了一个摸底，那个老师觉得我女儿的英文连她学校水平都达不到[Facepalm]。知音遇伯乐般，跟Oli之后，就突飞猛进。不是特地给老师打广告，确实是个人实战经历。</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Z Zhuang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">乔老师是一位经验丰富、教学严谨、耐心亲切和认真负责的老师。在她的辅导下，我的GCSE中文取得了优异成绩。她是一位值得家长信赖的老师。</p>
+                    <p class="text-sm font-bold text-[#279b77]">- J Wang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Xuan is friendly and has an efficient way of teaching. She has helped me get 9s in all the sciences for GCSE!</p>
                     <p class="text-sm font-bold text-[#279b77]">- B Lu</p>
                 </div>
-
-                <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"Fantastic teachers. They are kind and friendly and provide a comfortable environment for students to progress. They are helpful and patient with students’ questions. Nasya has significant improvements in all subjects and always looking forward to the next lesson. Highly recommended."</p>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">我的孩子很喜欢他英文老师，英语阅读也有了很大的进步，老师非常有耐心，很推荐！</p>
+                    <p class="text-sm font-bold text-[#279b77]">- D Huang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Lucas love the way how teacher teach,,easy to understand.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- L Xu</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">我儿子在您的辅导进步很快，他特别喜欢上您的课，希望他明年也可以取得好成绩。恭喜你的学生今年GCSE和A-level 考试取得好成绩。</p>
+                    <p class="text-sm font-bold text-[#279b77]">- A Chen</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Fantastic teachers. They are kind and friendly and provide a comfortable environment for students to progress. They are helpful and patient with students’ questions. Nasya has significant improvements in all subjects and always looking forward to the next lesson. Highly recommended.</p>
                     <p class="text-sm font-bold text-[#279b77]">- N Zhang</p>
                 </div>
-
-                <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"Mrs Qiao is a calm and excellent tutor with a great experience. She really knows how to motivate her students. She helped my elder son successfully through his 11+ two years ago and my little boy has been learning 11+lessons with her from last year. I do believe he will get the best results next year! ❤"</p>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Mrs Xuan is very nice and patient. She always delivers high quality lessons to students. My daughter is much more confidence on her science since she has studied with her. Would def recommend to everyone.👍</p>
+                    <p class="text-sm font-bold text-[#279b77]">- L Zhang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Mrs Qiao is a calm and excellent tutor with a great experience. She really knows how to motivate her students. She helped my elder son successfully through his 11+ two years ago and my little boy has been learning 11+lessons with her from last year. I do believe he will get the best results next year! ❤</p>
                     <p class="text-sm font-bold text-[#279b77]">- Andrew</p>
                 </div>
-
-                <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"Tutor Qiao is a professional teacher. She is patient, kind and passionate! She always encourages the students to challenge themselves."</p>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">My daughter likes the way Mrs Qiao taught. Lessons are easily understand. Homework can be done either on the tablet or on printed paper. If there are unknow questions, Mrs Qiao always patiently explains to her. 👍</p>
+                    <p class="text-sm font-bold text-[#279b77]">- L Zhang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">作为家长我非常感谢乔老师高质量一对一11＋的补习，孩子在乔老师的课上轻松愉快学习进步很快，对学习有了更多的兴趣。我对选择学校很茫然 ，乔老师耐心同我解析有关选择学校等事宜，让我没有担心焦虑，孩子在这里不仅学到知识还感受到了关爱，再次感谢乔老师和她的团队🌹🌹🌹</p>
+                    <p class="text-sm font-bold text-[#279b77]">- J Pan</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">感谢乔老师的用心辅导让大宝的英文有很大的进步 下次小宝还要继续交给乔老师了 辛苦老师了 衷心感谢您的帮助</p>
+                    <p class="text-sm font-bold text-[#279b77]">- K Xie</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Tutor Qiao is a professional teacher. She is patient, kind and passionate! She always encourages the students to challenge themselves.</p>
                     <p class="text-sm font-bold text-[#279b77]">- K Wang</p>
                 </div>
-
-                <div class="bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
-                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">"Lili has been the most amazing teacher for Aidan. Despite the short time given, she has helped and encouraged Aidan to dramatically improve in all areas. She has a genuine care for her pupils, always going above and beyond in preparing them for realistic yet challenging goals to maximize their potentials."</p>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">孩子开学5年级，暑假上了6节课，虽然对她有点挑战，但是她坚持下来了。现在数学解题速度明显加快，正确率也在提高，继续跟着乔老师学，相信会越好越好！</p>
+                    <p class="text-sm font-bold text-[#279b77]">- R Zhang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Xuan is a very good teacher, she fixed well with different types of children, step by step, the children learn the skills very well. She also is very patient, never has any bad emotions with children and contact with parents with all the progress of the learning. We are very happy with her.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- D Zhu</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">会鼓励孩子👍</p>
+                    <p class="text-sm font-bold text-[#279b77]">- K Liu</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">My son is enjoying Teacher Xuan Science lessons so much.Her lessons were engaging, useful, and she was very patient with everyone in class always encouraging her students to try.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- A Wang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">会鼓励孩子👍</p>
+                    <p class="text-sm font-bold text-[#279b77]">- K Liu</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">炫 是一个非常有耐心而且教的特别好</p>
+                    <p class="text-sm font-bold text-[#279b77]">- H Hui</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">My child is not maths wise. Xuan helped her a lot during summer revision course. Xuan always explains things clearly in an easily understandable way that saves both my child and me lots of efforts. Thanks very much Xuan!</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Y Kou</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">非常好的一位老师，她教我女儿数学和英语，我看到了我女儿的进步，女儿在学校里也更加自信.谢谢老师.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- E He</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">I think it is very nice, because Olivier explains how to do the questions really well.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- I Lau</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">She is very good teacher!</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Z Zhang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Excellent teacher</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Mia</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">I think ur lesson is very fun!!</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Helen</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Very good</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Z Zheng</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">The teacher is very patient and experienced. My son likes having the science lesson.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- B Zhang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">老师非常认真负责，女儿很喜欢老师的课，谢谢！</p>
+                    <p class="text-sm font-bold text-[#279b77]">- R Huang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Olive teacher is very good</p>
+                    <p class="text-sm font-bold text-[#279b77]">- S Huang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">It was a good course, increased my son's interest in science and improved his grades.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- L Chen</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">He is really good and helpful teacher, my daughter passed her private school assessments in 2 months tutoring with Oli, really appreciate it</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Selina</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">He is very understandable and supportive teacher/tutor and he explains things very well.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- S Chen</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Sophie很喜欢这个课程！</p>
+                    <p class="text-sm font-bold text-[#279b77]">- S Feng</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Teacher is good</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Y Chen</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">I liked learning with her and she gave me lots of encouragement. I definitely recommend you to learn with her!</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Z Zhuang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">The teacher is so nice and patient teach with children.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Cindy</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">乔老师的备考学习资料多，为孩子学习提供了丰富的实战经验。</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Hewei</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">A very good teacher. 很友好，有方法，孩子很喜欢上她的课，并且进步很大</p>
+                    <p class="text-sm font-bold text-[#279b77]">- T Liu</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">She is a very patient teacher and will definitely show obvious progress if you learn with her!</p>
+                    <p class="text-sm font-bold text-[#279b77]">- L Zhuang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Olivier 老师是一位有着专业教课知识和教学经验的英语老师。他指导学生阅读的时候，讲解过程非常生动有趣，使得学生很快就可以理解并懂得短文的内容。在他的一系列的教学下，我的孩子慢慢的不再抗拒做阅读和写作，在这一方面的能力也慢慢得到提高。感谢他，孩子跟着他学习，我很放心。如果家长们有孩子需要这方面的帮助，我推荐Olivier 老师。他会让你的孩子在英语阅读方面得到进步。</p>
+                    <p class="text-sm font-bold text-[#279b77]">- T He</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">乔老师给我们补习11plus非常认真 复习覆盖面很充分 给我们很多好的资料和习题 还针对我们单个学生的特点优缺点给了很多好建议。 bexley grammar school</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Y Xia</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Xuan is a very professional, experienced and fully skilled piano teacher.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Yi</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">乔老师是个非常好的老师，我们家两个孩子都在那里补习，成绩提升很多谢谢乔老师的辛苦教导真心感谢🙏</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Y Chen</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Jessica 老师是一位非常优秀，非常专业的钢琴老师。她的教学始终给学生一种舒适，想学，愿意跟她学的氛围。她的教学激发孩子们学习的兴趣和热情。我女儿跟她从基础学到八级，从她身上不仅学到了钢琴知识和技能，还学到了她那种认真对待教学，负责任的教学态度。我身边的好多朋友的孩子都喜欢她的教学，都成为她的学生。她带领孩子们进入了音乐世界，谢谢她。我极力推荐她，她会让你的孩子喜欢上音乐的。</p>
+                    <p class="text-sm font-bold text-[#279b77]">- K Wang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">The things he has reached me has proved very useful and I realised just how much fun learning could be.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Z Zhuang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Olivier has been tutoring my son for half a year now. I have noticed an improvement in writing and my son is more confidence. Olivier is punctual , friendly and an excellent tutor.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Shao</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">good manner and technique.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Yu</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">She's a really helpful and dedicated piano teacher who's helped me to progress to grade 8 piano and has helped me to develop my music skills as a whole.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- A Arulnanthy</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">He has good knowledge especially when it comes to writing essays and all his work is much appreciated. I have enjoyed learning with him.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- L Zhuang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Excellent</p>
+                    <p class="text-sm font-bold text-[#279b77]">- K Wang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Xuan is wonderful with my daughter and she really likes her and enjoyed Xuan's lessons - she is a great teacher and I highly recommend her.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- K Xiong</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">很好</p>
+                    <p class="text-sm font-bold text-[#279b77]">- C An</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Very Good</p>
+                    <p class="text-sm font-bold text-[#279b77]">- K Chen</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">很好👍</p>
+                    <p class="text-sm font-bold text-[#279b77]">- T Liu</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Well educational teacher where students can learn from. Good manner and student feel comfortable to study.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Y Li</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Teacher A教学经验丰富，一对一的教学内容有针对性、内容调整灵活、授课效率高，对小朋友帮助很大。乔老师每次协调沟通都很及时，并总是给予各种建议和反馈。可惜因为时间和路程的原因。没有机会来上小组课。希望后续能开一些线上小组课，比如英语阅读理解和主题写作及数学感谢乔老师和A老师！</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Asland</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">乔老师帮助我们准备中学考试， 上课次数不多， 但很有效， 在很短的时间里取得了很大的进步。</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Z An</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">乔老师是一位非常优秀的老师，她是一个细心而且特别有耐心的好老师，她辅导过我的女儿11+小学升初中的考试，让我女儿在Bexley和Kent 统考中，还有Newstead wood考试中取得好成绩。并且在乔老师的引导下让孩子去尝试私校，以优异的成绩拿到了几所私校奖学金。最后选择JAGS这所女校。谢谢乔老师！</p>
+                    <p class="text-sm font-bold text-[#279b77]">- N Lin</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">She is a very good teacher with a high amount of experience and is a very patient, understanding teacher. She will help you throughout subjects of maths ,English , verbal reasoning and non-verbal.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- L Zhang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Excellent Wilmington Grammar school for boys</p>
+                    <p class="text-sm font-bold text-[#279b77]">- D Zheng</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Exelent</p>
+                    <p class="text-sm font-bold text-[#279b77]">- J Guo</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">She is a good teacher and he has learnt many of things from her.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Z Zhuang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Excellent</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Y Tian</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">The teaching is really good and helping me a lot</p>
+                    <p class="text-sm font-bold text-[#279b77]">- T Tran</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">乔老师是一位有责任心，耐心和爱心的老师。她有非常优秀的教学理念和丰富的教学经验，在她耐心的辅导下我女儿顺利地通过了11+的三个考区考试，顺利考进了Dartford Grammar School for Girls. 同时在乔老师专业化的乐理教课下，我女儿在五级乐理考试中考出了优秀的成绩。乔老师的教学和辅导孩子的态度让家长放心，我极力推荐她。她是大家身边的好老师。</p>
+                    <p class="text-sm font-bold text-[#279b77]">- J Wang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Having been tutored by a number of various tutors prior to this, we saw little improvement in Jacks’s academia. However, in only a few months of starting with 乔老师, we saw Jack greatly improve, and thus have stayed with her for nearly a year now. Greatly recommend!</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Jack</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">谢谢乔老师帮忙补习的11plus Beths Grammar School</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Daniel</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">乔老师教学经验丰富，对课程知识点的讲解非常耐心，到位且例题丰富。通过乔老师11+的补习，我们孩子在各区考试中取得了喜人的成绩。非常感谢乔老师。十星好评！！！ tonbridge grammar school</p>
+                    <p class="text-sm font-bold text-[#279b77]">- X Lu</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Miss Qiao is an experienced 11+ exam tutor. My daughter was very happy with Miss Qiao. Miss Qiao was very helpful for preparing my daughter’s 11+ exams and also ABRSM music theory exam. All results were excellent!</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Grace</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">乔老师真是一个全能的老师。她不仅帮助我的孩子在11+的考试中取得佳绩，使我们顺利拿到了newstead wood 的offer，并申请到了心仪私校的奖学金。她同时还辅导我孩子的乐理，使我们事半功倍，以优异的成绩过了五级。在这只想说，谢谢。有您是我们的幸运。</p>
+                    <p class="text-sm font-bold text-[#279b77]">- XH Bao</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Ms. Qiao is a very diligent and reliable tutor. She helped with my music theory and 11plus entrance exams. She prepared very well for each lesson and is very effective to improve my weaker areas. I highly recommended her.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- J Dong</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Thanks to Ms Qiao’s tutoring, in particular NVR and Math. Lucy has passed Bexley and Newstead 11+ tests.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- L Richards</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">excellent sevenoaks school</p>
+                    <p class="text-sm font-bold text-[#279b77]">- G Baldru</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Phyllis start her course from July 2019 after be in waiting list for a while, due to Ms Qiao are very popular in Chinese community for 11+ Exam teaching, and many of her students are went to their Favorited school after attending the course. we hope Phyllis will also achieve her goal with assistant by Ms Qiao. Ms Qiao is experienced tutor in 11+ and many other exams as well.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- P Lu</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">找到丽丽老师是我们做父母的最大的收获，辛苦帮我们把两个儿子都送进Westminster School。如果你也在找培训老师，不用再挑了，丽丽老师就是你需要的。</p>
+                    <p class="text-sm font-bold text-[#279b77]">- L Tzitzikakis</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">乔老师 景涵的成绩在你的辅导下 ，气色很大 ，感谢您</p>
+                    <p class="text-sm font-bold text-[#279b77]">- JH Liang</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">非常好而且很负责任的一位老师，很感谢她教我女儿的那段时间，我女儿的数学提升很快</p>
+                    <p class="text-sm font-bold text-[#279b77]">- EQ He</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">乔老师教学有自己一套特别的方法，孩子在她的指导下学习成绩明星进步很多。</p>
+                    <p class="text-sm font-bold text-[#279b77]">- J Zheng</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Highly recommended! She is a brilliant teacher. She helped my daughter passed her music theory exam within few months. And Eva said she is very helpful!</p>
+                    <p class="text-sm font-bold text-[#279b77]">- E Li</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Good</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Gloria</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">乔老师很认真负责，教得也很细致，注重方法，孩子进步很大</p>
+                    <p class="text-sm font-bold text-[#279b77]">- T Liu</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Teacher Qiao is a very professional , patient and intelligent teacher.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Chiara</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">我女儿开始11+ 备考比较晚所以考上理想学校的机会大打折扣。比较幸运的是通过朋友的推荐我们有幸请到乔老师帮忙补习数学。乔老师在11+方面的教学经验相当丰富，乔老师根据我女儿的情况为她量身定制了适合她的课程。正是因为乔老师的认真负责加上不可多得的教学经验我女儿成功考上理想的文法学校。</p>
+                    <p class="text-sm font-bold text-[#279b77]">- Esme</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">好</p>
+                    <p class="text-sm font-bold text-[#279b77]">- H Hou</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">一个非常有经验和蔼的老师，给我们家孩子提供了非常大的帮助，是孩子人生道路上的指明灯。非常感谢！</p>
+                    <p class="text-sm font-bold text-[#279b77]">- H Zhao</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">The lessons were planned well and organised. Ms Qiao has helped our daughter get a place in our desired school.</p>
+                    <p class="text-sm font-bold text-[#279b77]">- M Guo</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Excellent teaching</p>
+                    <p class="text-sm font-bold text-[#279b77]">- T Nkole</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">我家两个女儿都是丽丽老师的学生，准备11+的时候时间比较紧张，老大很多知识点都没有学过，还好丽丽老师愿意帮忙，通过她耐心的辅导，两个孩子都考上grammar和私立学校，孩子们都非常喜欢她。谢谢丽丽老师的付出，非常感恩👍 👍 👍 👍 👍 🙏 🙏</p>
+                    <p class="text-sm font-bold text-[#279b77]">- A Guo</p>
+                </div>
+                <div class="review-hidden hidden bg-white p-6 rounded-[15px] shadow-sm border border-gray-100 flex flex-col justify-between">
+                    <p class="text-gray-700 text-sm mb-4 leading-relaxed">Lili has been the most amazing teacher for Aidan. Despite the short time given, she has helped and encouraged Aidan to dramatically improve in all areas. She has a genuine care for her pupils, always going above and beyond in preparing them for realistic yet challenging goals to maximize their potentials. Her methods and skills are impressive but easily understood by her pupils.</p>
                     <p class="text-sm font-bold text-[#279b77]">- A Kwok</p>
                 </div>
 
             </div>
             
-            <div class="mt-12 text-center">
-                <p class="text-sm text-gray-500 italic">+ 45 more archived testimonials on file.</p>
+            <!-- Load More Button -->
+            <div class="mt-12 text-center" id="loadMoreContainer">
+                <button onclick="showAllReviews()" class="bg-[#279b77] text-white font-medium px-8 py-3 rounded-[15px] hover:bg-emerald-700 transition-colors shadow-sm">
+                    View all archived reviews
+                </button>
             </div>
 
         </div>
     </main>
 
-    <!-- Footer Placeholder -->
+    <!-- Footer -->
     <footer class="text-center py-8 mt-8 text-sm text-gray-500 border-t border-gray-200">
         <p>&copy; 2026 Target Tuition. All rights reserved.</p>
     </footer>
 
+    <!-- JavaScript to toggle hidden reviews -->
+    <script>
+        function showAllReviews() {
+            // Find all reviews that are currently hidden
+            const hiddenReviews = document.querySelectorAll('.review-hidden');
+            
+            // Remove the 'hidden' class from each one
+            hiddenReviews.forEach(review => {
+                review.classList.remove('hidden');
+            });
+            
+            // Hide the button container so it doesn't stay on screen
+            document.getElementById('loadMoreContainer').style.display = 'none';
+        }
+    </script>
 </body>
 </html>
